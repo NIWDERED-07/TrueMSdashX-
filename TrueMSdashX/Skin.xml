@@ -1,0 +1,81 @@
+<Skin name="TrueMSdash">
+	<Information>
+		<Author>Peter PL</Author>
+		<Copyright>Copyright 2004</Copyright>
+		<Version>1.0</Version>
+	</Information>
+	<Main Globe="true" Orb="true">
+	<*Font>XBox_Book_11.xpr</Font>
+    <Orb>orb.png</Orb>
+	<Icon>orb.png</Icon>
+		<Menu Smooth="true" ShowIcon="true" Rotate="false">        
+		<font>14.xpr</font>
+		 	<ItemPos Left="330" Top="96"></ItemPos>
+			<ItemPos Left="345" Top="138"></ItemPos>
+			<ItemPos Left="350" Top="180"></ItemPos>
+			<ItemPos Left="345" Top="222"></ItemPos>
+			<ItemPos Left="330" Top="264"></ItemPos>
+		</Menu>
+
+		<Text Left="605" Top="30" Align="right" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="DateTime"></Text>
+		<Text Left="45" Top="360" Align="left" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="News: $Newsfeed$"></Text>
+		<Text Left="605" Top="410" Align="right" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="MBTemp"></Text>
+		<Text Left="605" Top="430" Align="right" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="IP"></Text>
+		
+		<*Text Left="45" Top="75" Align="left" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="Tray"></Text>
+		<Text Left="45" Top="30" Align="left" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="NickName"></Text>
+		
+		<Text Left="45" Top="70" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="SoundTrack"></Text>
+		<Text Left="45" Top="90" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="SongName"></Text>
+		<Text Left="45" Top="110" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="SongTime"></Text>
+		
+		<Text Left="45" Top="410" Align="Left" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="F_FreeMB"></Text>
+		<Text Left="45" Top="430" Align="Left" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="DVD: $Tray$"></Text>
+		
+		<Text Left="605" Top="390" Align="Right" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="CPUTemp"></Text>
+		<*Text Left="605" Top="430" Align="Right" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="NumClient"></Text>
+<Text Left="45" Top="390" Align="Left" Color="0xFFFFFFFF" ScaleX="75" ScaleY="75" Source="E_FreeMB">News</Text> 
+	</Main>
+	
+	<ColorScheme Name="Default">
+		<AMBIENT_FOGCOLOR>0xFF052500</AMBIENT_FOGCOLOR>
+		<AMBIENT_SKYCOLOR>0xFF008000</AMBIENT_SKYCOLOR>
+		<AMBIENT_CELLCOLOR>0x061A920A</AMBIENT_CELLCOLOR>
+
+		<CAPTION_TEXTCOLOR>0xFFFFFFFF</CAPTION_TEXTCOLOR>
+		<CAPTION_BACKCOLOR>0xFF000000</CAPTION_BACKCOLOR>
+		<DIALOG_BORDERCOLOR>0xFFFFFFFF</DIALOG_BORDERCOLOR>
+		<DIALOG_BACKCOLOR>0xFF06870D</DIALOG_BACKCOLOR>
+		<DIALOG_INNER_BORDERCOLOR>0xFFFFFFFF</DIALOG_INNER_BORDERCOLOR>
+		<DIALOG_INNER_BACKCOLOR>0xFF06870D</DIALOG_INNER_BACKCOLOR>
+		<DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+		<DIALOG_DISABLEDTEXT>0xFFC0C0C0</DIALOG_DISABLEDTEXT>
+
+		<OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+		<OPTION_ACTIVETEXTCOLOR>0xFF072700</OPTION_ACTIVETEXTCOLOR>
+		<OPTION_ACTIVEBACKCOLOR>0xFF8EA700</OPTION_ACTIVEBACKCOLOR>
+
+		<BUTTON_BORDERCOLOR>0xFF008000</BUTTON_BORDERCOLOR>
+		<BUTTON_TEXTCOLOR>0xFF77AB99</BUTTON_TEXTCOLOR>
+		<BUTTON_BACKCOLOR>0xCD93AF00</BUTTON_BACKCOLOR>
+		<BUTTON_ACTIVETEXTCOLOR>0xFFFFFFFF</BUTTON_ACTIVETEXTCOLOR>
+		<BUTTON_ACTIVEBACKCOLOR>0xE1072700</BUTTON_ACTIVEBACKCOLOR>	
+		
+		<KB_KEYBG_HIGHLIGHT>0xCC00C000</KB_KEYBG_HIGHLIGHT>
+		<KB_KEYBG_DISABLED>0xffc0c0c0</KB_KEYBG_DISABLED>
+		<KB_KEY_PRESSED>0xff808080</KB_KEY_PRESSED>
+		<KB_KEY_NORMAL>0xff000000</KB_KEY_NORMAL>
+		<KB_KEY_DISABLED>0xff808080</KB_KEY_DISABLED>
+		<KB_KEY_ACTIVEBORDER>0xffFF0000</KB_KEY_ACTIVEBORDER>
+		<KB_KEY_TEXTCOLOR>0xff000000</KB_KEY_TEXTCOLOR>
+		<KB_KEY_TEXTBACKCOLOR>0xffFFFFFF</KB_KEY_TEXTBACKCOLOR>
+		<KB_KEY_TEXTBORDERCOLOR>0xffFF0000</KB_KEY_TEXTBORDERCOLOR>
+		
+		<MENU_TEXTCOLOR>0x99FFFFFF</MENU_TEXTCOLOR>
+		<MENU_ACTIVETEXTCOLOR>0xFF40FF20</MENU_ACTIVETEXTCOLOR>
+		<MENU_BORDERCOLOR>0x00000000</MENU_BORDERCOLOR>
+		<MENU_BACKCOLOR>0x00000000</MENU_BACKCOLOR>
+		<MENU_ACTIVEBACKCOLOR>0x00000000</MENU_ACTIVEBACKCOLOR>
+		<MENU_ACTIVEBORDERCOLOR>0x00000000</MENU_ACTIVEBORDERCOLOR>
+	</ColorScheme>
+</Skin>
